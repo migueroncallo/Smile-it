@@ -1,0 +1,156 @@
+#face{
+  position: relative;
+  height:640px;
+  width: 640px;
+  background-color: yellow;
+}
+.eye{
+  width: 200px;
+  height: 200px;
+  background-color: black;
+  margin-top: 120px;
+
+}
+.cornea{
+  position: relative;
+  width: 120px;
+  height: 120px;
+  background-color: white;
+  margin:20px auto;
+}
+#left{
+  float: left;
+  margin-left: 80px;
+}
+#right{
+  float:right;
+  margin-right: 80px;
+}
+
+.pupil{
+  position: absolute;
+  height: 80px;
+  width: 80px;
+  background: black;
+  top: 24%;
+  margin-left: 80px;
+}
+
+#mouth{
+  height: 160px;
+  position: absolute;
+  width: 360px;
+  background-color: red ;
+  top: 63%;
+  margin-left: 160px;
+}
+
+.tongue{
+  background: #f08080;
+  height: 80px;
+  position: relative;
+  width: 120px;
+  left: 66%;
+  bottom: 50%;
+}
+.tongue-background{
+  background: black;
+  height: 120px;
+  position: relative;
+  width: 160px;
+  left: 56%;
+
+}
+.mouth-up{
+  background: black;
+  height: 40px;
+  width: 440px;
+  position: relative;
+  bottom: 20%;
+  float: right;
+}
+.mouth-down{
+  background: black;
+  height: 40px;
+  position: relative;
+  width: 360px;
+  top:100%;
+}
+.mouth-right{
+  background: black;
+  position: relative;
+  float: right;
+  left: 10%;
+  bottom:45%;
+  height: 200px;
+  width: 40px;
+}
+.mouth-left{
+  background: black;
+  height: 160px;
+  width: 40px;
+  position: absolute;
+  left: -9%;
+  bottom: 0%;
+}
+.corner1{
+  position: relative;
+  bottom: 187.5%;
+  background: black;
+  height: 40px;
+  width: 40px;
+}
+.corner2{
+  background: black;
+  height: 40px;
+  width: 40px;
+  position: relative;
+  bottom:100%;;
+}
+.corner3{
+  background: black;
+  height: 40px;
+  width: 40px;
+  position: relative;
+  left: 94%;
+  bottom: 200%;
+}
+.corner4{
+  background: black;
+  height: 40px;
+  width: 40px;
+  position: relative;
+  left: 94%;
+  bottom: 112.5%;
+}
+.face-down{
+  background: black;
+  height: 40px;
+  width: 560px;
+  position: relative;
+  left: 6.401%;
+  top:6.3%;
+}
+.face-up{
+  background: black;
+  height: 40px;
+  width: 560px;
+  position: relative;
+  bottom:6.3%;
+  left:6.4%;
+}
+.face-right{
+  background: black;
+  width: 40px;
+  height: 560px;
+  position: relative;
+  left:100%;
+}
+.face-left{
+  background: black;
+  width: 40px;
+  height: 560px;
+  position: relative;
+  bottom:94%;
+  right: 6.2%;
+}
